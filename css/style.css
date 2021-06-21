@@ -245,7 +245,8 @@ figure{
   }
   
   .project__hero{
-    flex: 0 0 42.2%;
+    flex: 0 0 71%;
+
   }
   
   .project__img{
@@ -291,6 +292,7 @@ figure{
   .project__details{
     display: flex;
     margin-top: auto;
+    align-items: center;
   }
 
 /*---------------------*/
