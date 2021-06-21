@@ -230,7 +230,7 @@ figure{
     font-family:'Lato','Arial','san-serif';
     padding : 50px;
     background: linear-gradient(to bottom right, #DECCD6,#F9FAFF);
-    height: 65vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,7 +245,7 @@ figure{
   }
   
   .project__hero{
-    flex: 0 0 46%;
+    flex: 0 0 42.2%;
   }
   
   .project__img{
