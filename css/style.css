@@ -123,7 +123,7 @@ a:active{
 .btn:link,
 .btn:visited{
     display: inline-block;
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
@@ -168,7 +168,8 @@ a:active{
 
 header{
     background-image:linear-gradient(#DECCD6, #F9FAFF);
-     /*background:url(backimg.jpg);*/
+     /*background:url(backimg.jpg);
+     background-image:url(hero-img.png);*/
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
@@ -223,14 +224,15 @@ header{
 /*--------------------*/
 
 footer{
-    background-color: #333;
+    /*background-color: #333;*/
+    background-image:linear-gradient( #F9FAFF, #DECCD6);
     padding: 50px;
     font-size: 80%;
 }
 
 .footer-nav{
     list-style: none;
-    float: left;
+    float: right;
 }
 
 .footer-nav li,
@@ -258,7 +260,7 @@ footer{
 
 .footer-nav li a:hover,
 .footer-nav li a:active{
-    color: #F9FAFF;
+    color: #975E7C;
     
 }
 footer p{
@@ -267,8 +269,5 @@ footer p{
     margin-top: 20px;
 }
 
-footer h2{
-    color: #F9FAFF;
-}
 
 
