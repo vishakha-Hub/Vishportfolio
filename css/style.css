@@ -221,7 +221,65 @@ header{
 
 
 /*---------------------*/
-/*Section
+/*Main Sections
+/*--------------------*/
+
+ /*------My UX Skills Section--------*/
+
+
+ .skillsContainer{
+   display: flex;
+ }
+
+ .skillsContainer div{
+   width: 33%;
+   background-color: #b7c9cf;
+   padding: 20px;
+   margin: 20px;
+   text-align: center;
+   box-shadow: 0 30px 80px 10px #dde9ed;
+ }
+
+ .skillsContainer img{
+   align-items: center;
+   width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+ }
+ .skillsContainer p{
+    text-align: left;
+    font-size: 80%;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+    text-transform: initial;
+    color: #2E3A45;
+ }
+
+ @media only screen and (max-width: 900px) {
+  /* For Mobile And Tablet Device: */
+
+.skillsContainer div{
+    width: 100%;
+  }
+  .skillsContainer p{
+    font-size: 40%;
+    margin: 5px 0px;
+ }
+}
+@media only screen and (max-width: 600px) {
+  /* For Mobile And Tablet Device: */
+  .skillsContainer div{
+    width: 100%;
+  }
+
+  .skillsContainer p{
+    font-size: 40%;
+    margin: 5px 0px;
+ }
+}
+
+/*---------------------*/
+/* My work Section
 /*--------------------*/
 
   
@@ -242,15 +300,17 @@ figure{
     box-shadow: 0 30px 80px 10px rgba(0,0,0,.2);
     display:flex;
     align-items: stretch;
+    margin: 40px auto;
   }
   
   .project__hero{
-    flex: 0 0 71%;
+    flex: 0 0 50%;
 
   }
   
   .project__img{
     width:100%;
+    height: 100%;
     display: block;
   }
   
@@ -295,13 +355,18 @@ figure{
     align-items: center;
   }
 
+
+@media only screen and (max-width: 900px) {
+  /* For Mobile And Tablet Device: */
+  
+}
+
 /*---------------------*/
 /*FOOTER
 /*--------------------*/
 
 footer{
-    /*background-color: #333;*/
-    background-image:linear-gradient( #F9FAFF, #DECCD6);
+    background-image:linear-gradient(#DECCD6, #F9FAFF);
     padding: 50px;
     font-size: 80%;
 }

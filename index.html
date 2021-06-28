@@ -7,6 +7,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <title>Vishakha's Portfolio</title>
         <meta name="description" content="">
@@ -25,6 +27,7 @@
                 <ul class="main-nav">
                     <li><a href="#About">About</a></li>
                     <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#MySkills">Skills</a></li>
                     <li><a href="#Resume">Resume</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>   
@@ -42,11 +45,37 @@
         </header>
 
         <main>
-            <section>
+             <section class="myUxSkills row" id="MySkills">
+                <div>
+                    <h2>My UX Skills</h2>
+                <div class="skillsContainer">
+                    <div>
+                        <img src="./images/UXDesignImg.png" alt="UX Design Image">
+                        <h3>UX Design</h3>
+                        <p>Skills: User interviews, Brainstroming, User persona, User Journey Map, sketching, Wireframing and prototyping, and Usability Testing</p>
+                        <p>Tools: Miro, Whimsical, Figma, Invision, Adobe XD</p>
+                    </div>
+                    <div>
+                        <img src="./images/UIDesignImg.png" alt="UI Design Image">
+                        <h3>UI Design</h3>
+                        <p>Skills: Information Architecture, Heuristic Analysis and Evaluation, Color Accessibility, Style Guide, UI Prototype, Responsive and Intetraction Design, A/B Testing.</p>
+                        <p>Tools: Miro, Whimsical, Figma, Invision, Adobe XD, Google font</p>
+                    </div>
+                    <div>
+                        <img src="./images/ProgramingImg.png" alt="Programing Image">
+                        <h3>Programing</h3>
+                        <p>Skills: HTML, CSS, JavaScript, jQuery, Bootstrap</p>
+                        <p>Tools: Visual Studio Code, GitHub, CodePen</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+            <section id="Projects">
                 <h2>Projects<br></h2>
                 <figure class="project row"> 
                     <div class="project__hero"> 
-                      <img src="./Images/Travel_App_Mockup.jpg" alt="project_01" class="project__img">
+                      <img src="./Images/TravelApp.png" alt="project_01" class="project__img">
                     </div>
                     <div class="project__content">
                      <div class="project__title"> 
@@ -72,74 +101,73 @@
                          </div>
                        </div>
                     <div class="project__hero"> 
-                      <img src="./Images/Travel_App_Mockup.jpg" alt="project_02" class="project__img">
+                      <img src="./Images/weddingApp.png" alt="project_02" class="project__img">
                     </div>             
                   </figure>
-
-                  <figure class="project row"> 
-                    <div class="project__hero"> 
-                      <img src="./Images/Travel_App_Mockup.jpg" alt="project_03" class="project__img">
-                    </div>
-                    <div class="project__content">
-                     <div class="project__title"> 
-                        <div class="project__heading">U.S Department of Education</div>
-                     </div>
-                      <div class="project__discription">UI Project - Desktop and Mobile Design.</div>
-                      <!--<h4>Nomad is a travel app who help people to find COVID information and get the best deals.</h4>-->
-                      <div class="project__details">
-                        <a class="btn btn-ghost" href="#">Case Study</a>
-                      </div>
-                    </div>                    
-                  </figure>
-
-                  <figure class="project row"> 
+                
+                <figure class="project row"> 
                     <div class="project__content">
                         <div class="project__title"> 
-                           <div class="project__heading">Furry Friend Rescue</div>
+                           <div class="project__heading">U.S.Department Of Education</div>
                         </div>
-                         <div class="project__discription">UX/UI Project - Desktop and Mobile Design.</div>
+                         <div class="project__discription">UI Project - Desktop And Mobile Design.</div>
                          <!--<h4>Nomad is a travel app who help people to find COVID information and get the best deals.</h4>-->
                          <div class="project__details">
                            <a class="btn btn-ghost" href="#">Case Study</a>
                          </div>
-                       </div>   
+                       </div>
                     <div class="project__hero"> 
-                      <img src="./Images/Travel_App_Mockup.jpg" alt="project_04" class="project__img">
-                    </div>                 
+                      <img src="./Images/U.S.DepartmentofEducation.png" alt="project_04" class="project__img">
+                    </div>             
                   </figure>
-
+                
+                <figure class="project row"> 
+                    <div class="project__content">
+                        <div class="project__title"> 
+                           <div class="project__heading">Furry Friend Rescue</div>
+                        </div>
+                         <div class="project__discription">UX/UI Project - Desktop And Mobile Design.</div>
+                         <!--<h4>Nomad is a travel app who help people to find COVID information and get the best deals.</h4>-->
+                         <div class="project__details">
+                           <a class="btn btn-ghost" href="#">Case Study</a>
+                         </div>
+                       </div>
+                    <div class="project__hero"> 
+                      <img src="./Images/FurryFriendRescue.png" alt="project_04" class="project__img">
+                    </div>             
+                  </figure>
+                <h2 class="moreproject">View All Projects</h2>
             </section>
 
         </main>
-
-        <footer>
-            <div class="row">
-                <div>
-                    <h2>Let's Connect<br> </h2>
-                </div>
-                <div>
+        
+        
+         <footer>
+            <div class="">
+                <h2>Let's Connect</h2>
+            </div>
+            <div class="">
+                    <div>
+                        <ul class="footer-nav">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Projects">Projects</a></li>
+                            <li><a href="#Resume">Resume</a></li>
+                        </ul>
+                    </div>
+    
+                   <div>
                     <ul class="social-links">
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-codepen"></i></a></li>
                     </ul>
-                </div>
+                   </div>
             </div>
-
-            <div class="row">
-                <ul class="footer-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div> 
-            <div class="row">
-                <p>
-                   copyright &copy; 2021 Vishakha's Portfolio.
-                </p>
+            <div class="">
+               <p> copyright &copy; 2021 Vishakha Patil.</p>
             </div>
+            
          </footer>
 
         <script src="" async defer></script>
